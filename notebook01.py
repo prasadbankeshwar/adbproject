@@ -1,8 +1,7 @@
 # Databricks notebook source
 print ("testing")
-print ("testing again")
+print ("testing again on 21Feb25")
 
 # COMMAND ----------
 
-print("updated notebook")
-print("updated notebook changed on 23 Sep 24")
+print("updated notebook on 21Feb25")
