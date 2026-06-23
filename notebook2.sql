@@ -1,3 +1,4 @@
 -- Databricks notebook source
-print("test10")
-
+-- MAGIC %python
+-- MAGIC print("modified on 23Jun26")
+-- MAGIC
