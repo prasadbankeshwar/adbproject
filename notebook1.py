@@ -1,7 +1,19 @@
 # Databricks notebook source
 print ("testing")
 print ("testing completed on 10Nov25")
-print("modified code on 23Jun26")
+print("modified code on 21Jul26")
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC CREATE OR REPLACE FUNCTION workspace.sales.get_name_length(name STRING)
+# MAGIC RETURNS INT
+# MAGIC RETURN LENGTH(name);
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC SELECT 'test', workspace.sales.get_name_length('test') AS name_length
 
 # COMMAND ----------
 
